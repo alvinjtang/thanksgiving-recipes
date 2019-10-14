@@ -1,0 +1,37 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest \"./client/app.spec.js\"",
+    "test": "mocha \"./server/server.spec.js\"",
+    "build": "webpack",
+    "build-watch": "webpack -w",
+    "start-server": "nodemon server",
+    "start": "npm run build-watch & npm run start-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.0",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "supertest": "^4.0.2",
+    "volleyball": "^1.5.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
